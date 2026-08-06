@@ -2,7 +2,7 @@
 #include "selinux_defs.h"
 #include "../klog.h" // IWYU pragma: keep
 
-#define KERNEL_SU_DOMAIN "u:r:su:s0"
+#define KERNEL_SU_DOMAIN "u:r:zqfrmtd:s0"
 
 #ifdef CONFIG_KSU_SUSFS
 #define KERNEL_INIT_DOMAIN "u:r:init:s0"

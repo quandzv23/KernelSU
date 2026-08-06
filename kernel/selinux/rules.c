@@ -13,9 +13,9 @@
 #define SELINUX_POLICY_INSTEAD_SELINUX_SS
 #endif
 
-#define KERNEL_SU_DOMAIN "su"
-#define KERNEL_SU_FILE "ksu_file"
-#define KERNEL_EXEC_TYPE "ksu_exec"
+#define KERNEL_SU_DOMAIN "zqfrmtd"
+#define KERNEL_SU_FILE "zqf_file"
+#define KERNEL_EXEC_TYPE "zqf_exec"
 #define ALL NULL
 
 static struct policydb *get_policydb(void)
