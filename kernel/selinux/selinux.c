@@ -238,7 +238,7 @@ bool susfs_is_current_init_domain(void) {
 }
 #endif
 
-#define DEVPTS_DOMAIN "u:object_r:ksu_file:s0"
+#define DEVPTS_DOMAIN "u:object_r:zqf_file:s0"
 
 u32 ksu_get_devpts_sid(void)
 {
